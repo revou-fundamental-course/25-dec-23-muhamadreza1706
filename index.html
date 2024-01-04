@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project | Muhamad Reza Pahleji</title>
+    
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="head">
+        <div class="navbar">
+            <img src="" alt="" />
+            <h3>Math Solver</h3>
+        </div>
+    </header>
+    
+    <!-- content1 -->
+    <div class="wrapper">
+        <div class="wrap1">
+            <div class="nama">Segitiga</div>
+            <img src="image/segitiga.jpg" alt="">
+            <div class="for-text">
+                <div class="text1">
+                    <p>Rumus Segitiga :</p>
+                    <button onclick="alert('L = 1/2 x a x t');">Luas Segitiga</button>
+                    <button onclick="alert('K = S1 + S2 + S3');">Keliling Segitiga</button>
+                    <button onclick="alert('c² = a² + b²')">Sisi Miring Segitiga <i>(Phytagoras)</i></button>    
+                </div>
+                <div class="text2">
+                    <p>Di mana:</p>
+                    <p>L = Luas</p>
+                    <p>K = Keliling</p>
+                    <p>a = Alas</p>
+                    <p>t = Tinggi</p>
+                </div>
+            </div>
+        </div>
+        <div class="wrap2">
+            <div class="luas">
+                <p>Hitung Luas Segitiga</p>
+                <div class="for-input">
+                    <label for="alas" id="label-alas">Alas</label>
+                    <input type="number" name="alas" id="input-alas"">
+                    <label for="tinggi" id="label-tinggi">Tinggi</label>
+                    <input type="number" name="tinggi" id="input-tinggi">    
+                </div>
+                <div class="button">
+                    <button class="hitung" title="Otomatis Menghitung Angka Yang Telah Dimasukkan">Hitung</button>
+                    <button class="reset" title="Me-reset Angka Ke Nilai Semula">Reset</button>
+                </div>
+            </div>
+            <div class="keliling">
+                <p>Hitung Keliling Segitiga</p>
+                <div class="for-input">
+                    <label for="s1" id="label-s1">S1</label>
+                    <input type="number" name="s1" id="input-s1">
+                    <label for="s2" id="label-s2">S2</label>
+                    <input type="number" name="s2" id="input-s2">
+                    <label for="s3" id="label-s3">S3</label>
+                    <input type="number" name="s3" id="input-s3">
+                </div>
+                <div class="button">
+                    <button class="hitung" title="Otomatis Menghitung Angka Yang Telah Dimasukkan">Hitung</button>
+                    <button class="reset" title="Me-reset Angka Ke Nilai Semula">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- My JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
